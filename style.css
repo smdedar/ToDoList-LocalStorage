@@ -4,11 +4,11 @@ ul {
 }
 
 li {
-    height: 50px;
-    margin: 8px;
-    padding: 2px;
+    height: 20px;
+    margin: 10px;
+    padding: 10px;
     border-style: solid;
-    width: 500px;
+    width: auto;
     font-size: large;
 }
 
@@ -16,4 +16,8 @@ li {
     height: 300px;
     width: 500px;
     margin: 0 auto;
+}
+
+#deleteBtn{
+    float: right;
 }
