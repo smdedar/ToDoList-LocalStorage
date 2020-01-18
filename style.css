@@ -1,0 +1,19 @@
+ul {
+    list-style: none;
+
+}
+
+li {
+    height: 50px;
+    margin: 8px;
+    padding: 2px;
+    border-style: solid;
+    width: 500px;
+    font-size: large;
+}
+
+#content {
+    height: 300px;
+    width: 500px;
+    margin: 0 auto;
+}
