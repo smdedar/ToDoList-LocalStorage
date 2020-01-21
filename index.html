@@ -3,6 +3,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=">
     <title>LocalStorage Data Store Javascript</title>
+    
+    <!-- Material Icon CDN -->
+   
+    <script src="https://kit.fontawesome.com/b1cb080696.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- External JS-->
     <script src="app.js"></script>
     <!-- External CSS -->
@@ -12,13 +17,25 @@
 <body>
     <center>
         <h2>LocalStorage Data Store Javascript</h2>
-
-        <input type="text" placeholder="Task" id="task">
-        <button onclick="saveData();">Save Task</button>
     </center>
 
+    <div class="row">
+        <div class="col-sm-4">
+            
+        </div>
+        <div class="col-sm-4">
+            <input  class="form-control" type="text" placeholder="Task" id="task" class="" required>
+            <br>
+            <button class="btn btn-success btn-block" id="saveBtn" onclick="saveData();"><i class="far fa-plus-square"></i> Save Task</button>
+        </div>
+        
+        <div class="col-sm-4">
+            
+        </div>
+    </div>
     <div id="content">
-        <ul id="viewTask">
+        
+        <ul class="list-group-item" id="viewTask">
 
         </ul>
     </div>
